@@ -1,0 +1,43 @@
+{
+  "name": "fullapp",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write 'app/frontend/**/*.{html,css,scss,json,js,ts,svelte}'",
+    "lint": "prettier --check app/frontend/ && eslint app/frontend/"
+  },
+  "devDependencies": {
+    "@apollo/client": "^3.7.12",
+    "@popperjs/core": "^2.11.7",
+    "@rails/actioncable": "^7.0.4",
+    "@sveltejs/adapter-static": "^2.0.2",
+    "@sveltejs/kit": "^1.15.7",
+    "@types/bootstrap": "^5.2.6",
+    "@types/qrcode": "^1.5.0",
+    "@types/rails__actioncable": "^6.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "bootstrap": "^5.2.3",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "graphql": "^16.6.0",
+    "graphql-ruby-client": "^1.11.7",
+    "prettier": "^2.8.7",
+    "prettier-plugin-svelte": "^2.10.0",
+    "qrcode": "^1.5.1",
+    "sass": "^1.62.0",
+    "svelte": "^3.58.0",
+    "svelte-check": "^3.2.0",
+    "svelte-i18n": "^3.6.0",
+    "svelte-preprocess": "^5.0.3",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.2"
+  }
+}

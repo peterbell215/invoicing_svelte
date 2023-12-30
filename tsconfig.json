@@ -1,0 +1,32 @@
+{
+  // See https://www.typescriptlang.org/tsconfig
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    // Modules
+    "resolveJsonModule": true,
+
+    // Emit
+    "sourceMap": true,
+
+    // Interop
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Language & Environment
+    "useDefineForClassFields": true,
+
+    // Completeness
+    "skipLibCheck": true,
+
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
+  }
+}

@@ -1,0 +1,21 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf8
+  min_messages: WARNING
+  host: <%= ENV['POSTGRES_HOST'] || '0.0.0.0' %>
+  username: fullapp
+  password: fullapp
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *defaults
+  database: fullapp-development
+
+test:
+  <<: *defaults
+  database: fullapp-test
+
+production:
+  <<: *defaults
+  database: fullapp-production

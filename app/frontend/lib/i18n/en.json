@@ -1,0 +1,109 @@
+{
+  "common": {
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "update": "Update"
+  },
+  "components": {
+    "confirm": {
+      "cancel": "Cancel",
+      "proceed": "Proceed",
+      "title": "Are you sure?"
+    },
+    "loader": {
+      "loading": "Loading..."
+    },
+    "nav": {
+      "about": "About",
+      "home": "Home",
+      "login": "Login",
+      "logout": "Logout",
+      "posts": "Posts",
+      "signup": "Sign Up"
+    },
+    "pager": {
+      "next": "Next",
+      "prev": "Prev"
+    }
+  },
+  "pages": {
+    "about": {
+      "index": {
+        "heading": "About"
+      }
+    },
+    "errors": {
+      "404": {
+        "heading": "404 Not Found"
+      }
+    },
+    "forgot-password": {
+      "button": "Send password reset email",
+      "email": "Email",
+      "heading": "Reset your password",
+      "success": "If the email provided matches an account, it will be sent further password reset instructions."
+    },
+    "home": {
+      "index": {
+        "heading": "Home"
+      }
+    },
+    "login": {
+      "button": "Login",
+      "email": "Email",
+      "forgot_password": "Forgotten password?",
+      "heading": "Login",
+      "otp_code": "Multi-Factor Authentication Code",
+      "password": "Password"
+    },
+    "posts": {
+      "_form": {
+        "body": "Body",
+        "title": "Title"
+      },
+      "edit": {
+        "heading": "Edit Post"
+      },
+      "index": {
+        "heading": "All Posts",
+        "create": "New Post"
+      },
+      "new": {
+        "heading": "New Post"
+      }
+    },
+    "reset-password": {
+      "button": "Reset password",
+      "email": "Email",
+      "heading": "Reset your password",
+      "password": "Password",
+      "password_confirmation": "Password (again)"
+    },
+    "users": {
+      "edit": {
+        "email": "Email",
+        "heading": "Edit User",
+        "locale": "Locale",
+        "mfa-disable": "Disable Multi-Factor Authentication",
+        "mfa-enable": "Enable Multi-Factor Authentication",
+        "name": "Name"
+      },
+      "mfa": {
+        "code": "Enter Code:",
+        "disable": "Disable Multi-Factor Authentication",
+        "enable": "Enable Multi-Factor Authentication",
+        "heading": "Multi-factor Authentication"
+      },
+      "new": {
+        "button": "Sign Up",
+        "email": "Email",
+        "heading": "Sign Up",
+        "locale": "Locale",
+        "name": "Name",
+        "password": "Password",
+        "password_confirmation": "Password (again)"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+pre-commit:
+  parallel: true
+  commands:
+    graphql:
+      run: bin/rails graphql:schema:idl && git add app/graphql/schema.graphql
+    rubocop:
+      run: bundle exec rubocop
+    fasterer:
+      run: bundle exec fasterer
+    rails_best_practices:
+      run: bundle exec rails_best_practices -c .rails_best_practices.yml
+    db_consistency:
+      run: bundle exec database_consistency
+    brakeman:
+      run: bundle exec brakeman --quiet --no-pager
+    svelte-check:
+      run: pnpm svelte-check
+    typescript-types:
+      run: tsc --noEmit
